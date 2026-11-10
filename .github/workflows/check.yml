@@ -1,0 +1,21 @@
+name: Check release output
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Same gate the source repo runs: no tokens or private hosts, size budgets, data hashes match the bundle.
+      - run: node check.mjs

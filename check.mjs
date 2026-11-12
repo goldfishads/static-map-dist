@@ -11,7 +11,7 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const FORBIDDEN = [/pk\.eyJ/, /sk\.eyJ/, /goldfishads/i, /media-dooh/, /dooh-llm/, /audience-ai/, /api-dev/, /mcp\./, /mapbox:\/\//, /api\.mapbox\.com/, /access_token/, /npm\.pkg\.github\.com/];
-const BUDGET_KB = { "static-map.js": 80, "us-counties.js": 1000, "us-states.js": 150, "us-interstates.js": 300, "us-highways.js": 1000, "us-towns.js": 400, "us-cities.js": 200 };
+const BUDGET_KB = { "static-map.js": 80, "us-counties.js": 1000, "us-states.js": 150, "us-interstates.js": 300, "us-highways.js": 1000, "us-towns.js": 400, "world-countries.js": 900, "world-lakes.js": 200, "world-regions.js": 900, "world-cities.js": 800 };
 
 const bundle = readFileSync("dist/static-map.js", "utf8");
 const dataFiles = readdirSync("dist/data").filter((f) => f.endsWith(".js")).map((f) => join("dist/data", f));

@@ -4,5 +4,8 @@
   "us-interstates": "sha384-sHlggFQFc++iEYXvU952ZIYFz9PI26ulpOJRCJSB/AMLVticPFB3BRexxwtliscR",
   "us-highways": "sha384-p7uyK25IO5i1BLmk/TR5+zw8zbNBVzBCvKxIdjGeTUMytK12RvxFAdK5NyyXuoB3",
   "us-towns": "sha384-JFDUquVWVEo32lJ6X0F7ggWfiNuUTtL7kORZ0Podat92Mb2eSfOA8TrwOrdLe+CA",
-  "us-cities": "sha384-nOv0zT9aARDxJun7bDg+P1+dRS7NRwQbOagSdJYqOl+VklsLNRmp0e5zc+qf5pPg"
+  "world-countries": "sha384-jocu4klf9oPDjW/UgE5Aj4nWqh2gUhwY+Az7c9qQJB3cd+KgT3dWKyBysSfERoU8",
+  "world-lakes": "sha384-QcjzCKgqL/QNabhiwoQATIxk0ktr/SBy+iEkumbpNWnHoQPnLb5p7S9HoRoBO4sq",
+  "world-regions": "sha384-Y8Hab8VOwQUUqm4XQaunfqI6mcmqN7tdrpyI4vFTuhUY9Cj6E0VNvflOLjLDaoMw",
+  "world-cities": "sha384-bRM17prKtOMFhoV54Cnw3ytRYLSdIFPkzi+/JpKKRweogBT2ktrU9gA5CcTg7N60"
 }
